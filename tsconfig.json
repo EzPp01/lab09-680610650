@@ -4,15 +4,29 @@
     "@tsconfig/node-ts/tsconfig.json"
   ],
   "compilerOptions": {
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "rootDir": ".",
     "outDir": "./dist",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "paths": {
-      "@src/*": ["./src/*"],
-      "@db/*": ["./src/db/*"],
-      "@libs/*": ["./src/libs/*"]
+      "@src/*": [
+        "./src/*"
+      ],
+      "@db/*": [
+        "./src/db/*"
+      ],
+      "@libs/*": [
+        "./src/libs/*"
+      ]
     }
   },
-  "include": ["./src/**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
