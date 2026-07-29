@@ -10,7 +10,7 @@
     "rootDir": ".",
     "outDir": "./dist",
     "allowImportingTsExtensions": true,
-    "noEmit": true,
+    "noEmit": false,
     "paths": {
       "@src/*": [
         "./src/*"
