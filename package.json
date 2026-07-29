@@ -2,8 +2,8 @@
   "name": "lecture-09",
   "version": "1.0.0",
   "description": "",
+  "packageManager": "pnpm@10.17.1",
   "main": "index.js",
-  "packageManager": "pnpm@10.15.0",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc && tsc-alias",
@@ -15,13 +15,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "10.15.0",
+      "version": "^11.15.0",
       "onFail": "download"
     }
   },
   "type": "module",
   "dependencies": {
-    "approve-builds": "^1.0.0",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "debug": "^4.4.3",
