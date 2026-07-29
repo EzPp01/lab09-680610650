@@ -1,3 +1,9 @@
 allowBuilds:
   bcrypt: true
   esbuild: true
+
+ignoredBuiltDependencies:
+  - esbuild
+
+onlyBuiltDependencies:
+  - bcrypt
