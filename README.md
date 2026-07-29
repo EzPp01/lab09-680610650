@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล :กฤตภัทร์ การนา
 
-Vercel URL : 
+Vercel URL : https://lab9-680610650.vercel.app/
 
 - Current API
 - Create route handlers for `/api/v2/users`
